@@ -2,17 +2,19 @@
 
 
 nav{
-    background-color: pink;     
+    background-color: pink;   
+    border-top-left-radius:40px;  
+    border-top-right-radius:40px;  
+    border-bottom-right-radius:40px;  
+    border-bottom-left-radius:40px;
+    margin: 0px 10px;
 }
-
 
 /*change text color all nav*/
 .navbar-nav a{
     color: black;
     font-family: 'Lora', serif;
     }
-
-
 /*
 .backgroundChange{
     background-color: coral;
@@ -26,15 +28,35 @@ class can chnage color of nav bar*/
 .navbar-brand img{
     height: 80px;
     width: 120px;
-    
-   
+      
 }
 
 /*small box home contacts inside nav bar*/
 .navbar-nav{
     margin-left: 200px;
- 
 }
+
+.button-downloadCV{
+   /* height: 60px;
+    width: 200px;*/
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+   
+     /*padding make box bigger if do not want box get bigger when use padding use box sizing*/
+     margin: -10px 20px 0px 20px; /*value top right bottom and left*/
+     border-top-left-radius:25px;  
+     border-top-right-radius:25px;  
+     border-bottom-right-radius:25px;  
+     border-bottom-left-radius:25px;
+
+}
+
+
+
+
+
+
 
 
 /*main-page*/
@@ -44,12 +66,36 @@ class can chnage color of nav bar*/
   
    
 }
+
+.circle{
+height: 280px;
+width: 280px;
+border-radius: 50%;
+background-color:lightgreen;
+margin-left: -120px;/*move to the left give - if not give - it go to the right side*/
+margin-top: 70px;
+display: flex;/* make Tiparpron to center*/
+align-items: center;
+justify-content: center;
+
+
+}
+/*move tiparpron to center use h2*/
+.circle h2{
+margin-left:30px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+word-spacing: 10px;
+font-size: 50px;
+}
+
+
 .pic-child1{
 position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 70vh;
+height: 80vh;
 width: 100%;
  
 
@@ -59,12 +105,11 @@ width: 100%;
     content: "";
     position: absolute;
     /* we use before -content-position absolute
-    to blue flower pic--also we need position relative on main class*/
+    to blur flower pic--also we need position relative on main class*/
     background-image: url("https://images.unsplash.com/photo-1521062849558-8e32f69ba41d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNwcmluZyUyMGZsb3dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
     background-size: cover;
      /*cover for flower img*/
-
-     height: 70vh;
+     height: 80vh;
      width: 100%;
       
 
@@ -98,13 +143,10 @@ width: 100%;
 .text-child2 {
  
 display: flex;
-align-items: center;
-justify-content: center;
 background-color: lightblue;
-height: 70vh;
+height: 80vh;
 flex-direction: column;
 /*flex direction center make hello! from the side to be on top of the text*/
-
 
 
 }
@@ -133,3 +175,5 @@ align-items: center;
 justify-content: end;
 
 }
+
+
