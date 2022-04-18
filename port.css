@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+
+
+nav{
+    background-color: pink;     
+}
+
+
+/*change text color all nav*/
+.navbar-nav a{
+    color: black;
+    font-family: 'Lora', serif;
+    }
+
+
+/*
+.backgroundChange{
+    background-color: coral;
+}
+class can chnage color of nav bar*/
+
+/*logo */
+
+
+/* green circle*/
+.navbar-brand img{
+    height: 80px;
+    width: 120px;
+    
+   
+}
+
+/*small box home contacts inside nav bar*/
+.navbar-nav{
+    margin-left: 200px;
+ 
+}
+
+
+/*main-page*/
+
+.mainPage-parent{
+ 
+  
+   
+}
+.pic-child1{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70vh;
+width: 100%;
+ 
+
+
+}
+.pic-child1::before{
+    content: "";
+    position: absolute;
+    /* we use before -content-position absolute
+    to blue flower pic--also we need position relative on main class*/
+    background-image: url("https://images.unsplash.com/photo-1521062849558-8e32f69ba41d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNwcmluZyUyMGZsb3dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+     /*cover for flower img*/
+
+     height: 70vh;
+     width: 100%;
+      
+
+}
+
+
+
+.pic-child1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+
+}
+
+.facePics{
+    width: 400px;
+    height: 400px;
+    border: 10px solid pink;
+    position: absolute;
+    border-radius: 50%;
+ 
+}
+
+.facePics img{
+    border-radius: 50%; 
+
+}
+
+
+.text-child2 {
+ 
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: lightblue;
+height: 70vh;
+flex-direction: column;
+/*flex direction center make hello! from the side to be on top of the text*/
+
+
+
+}
+
+
+.text-child2 h2{
+   
+    }
+    
+  /*social media*/
+  
+  .socialMedia i{ 
+      /*make social icons line up --do not put i next to class 
+      and use display block. --- i means icone*/
+      font-size: 30px;
+   margin-bottom: 40px;
+   color: blue;
+     
+  }
+/*move box ofall social media to bottom-- look below use only class*/
+.socialMedia {
+display:flex ;
+background-color: bisque;
+flex-direction: column;
+align-items: center;
+justify-content: end;
+
+}
