@@ -1,20 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+/*google font*/
+
+
+/*above make it responsive*/
+
+
+
+header{
+    background-color: #E9DBD8;
+}
 
 
 nav{
-    background-color: pink;   
-    border-top-left-radius:40px;  
-    border-top-right-radius:40px;  
-    border-bottom-right-radius:40px;  
-    border-bottom-left-radius:40px;
-    margin: 0px 10px;
+    background-color: #FF6787;   
+    border-top-left-radius:50px;  
+    border-top-right-radius:50px;  
+    border-bottom-right-radius:50px;  
+    border-bottom-left-radius:50px;
+    margin: auto;
+    width: 90%;
 }
 
 /*change text color all nav*/
 .navbar-nav a{
     color: black;
     font-family: 'Lora', serif;
+    font-size: 18px;
+
     }
+
+    .navbar-nav a:hover{
+        color: white;
+    }
+
+/*hover when click home it chnage color to white*/
+
+.fa-chevron-right{
+    margin-left: 10px;
+}
+/*move arrow to the right from contact me- arrow from front awesome*/
+.fa-chevron-down{
+    margin-left: 10px;
+}
+
+/*move arrow in download cv*/
+
 /*
 .backgroundChange{
     background-color: coral;
@@ -28,6 +58,8 @@ class can chnage color of nav bar*/
 .navbar-brand img{
     height: 80px;
     width: 120px;
+    margin-left: -10px;
+    margin-top: -10px;
       
 }
 
@@ -42,6 +74,10 @@ class can chnage color of nav bar*/
     padding: 10px 20px;
     box-sizing: border-box;
     border: 2px solid black;
+    background-color: transparent;
+     /*make background download cv to be the same as nav bar
+     if we not put trasparent it show white background*/
+
    
      /*padding make box bigger if do not want box get bigger when use padding use box sizing*/
      margin: -10px 20px 0px 20px; /*value top right bottom and left*/
@@ -53,17 +89,10 @@ class can chnage color of nav bar*/
 }
 
 
-
-
-
-
-
-
 /*main-page*/
 
 .mainPage-parent{
  
-  
    
 }
 
@@ -71,7 +100,7 @@ class can chnage color of nav bar*/
 height: 280px;
 width: 280px;
 border-radius: 50%;
-background-color:lightgreen;
+background-color:#FDEDEC;
 margin-left: -120px;/*move to the left give - if not give - it go to the right side*/
 margin-top: 70px;
 display: flex;/* make Tiparpron to center*/
@@ -83,10 +112,15 @@ justify-content: center;
 /*move tiparpron to center use h2*/
 .circle h2{
 margin-left:30px;
-font-family: 'Roboto', sans-serif;
 font-weight: 700;
 word-spacing: 10px;
-font-size: 50px;
+font-size: 40px;
+color: #FF6787;
+}
+
+.circle span{
+    margin-left: 40px;
+    font-size: 40px;
 }
 
 
@@ -111,17 +145,14 @@ width: 100%;
      /*cover for flower img*/
      height: 80vh;
      width: 100%;
-      
+     filter: blur(5px); 
 
 }
-
-
 
 .pic-child1 img{
     width: 100%;
     height: 100%;
     position: absolute;
-
 
 }
 
@@ -139,11 +170,12 @@ width: 100%;
 
 }
 
+/* right side text section*/
 
 .text-child2 {
  
 display: flex;
-background-color: lightblue;
+background-color: #FDEDEC;
 height: 80vh;
 flex-direction: column;
 /*flex direction center make hello! from the side to be on top of the text*/
@@ -151,11 +183,20 @@ flex-direction: column;
 
 }
 
+.contact-me{
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    border-top-left-radius:25px;  
+    border-top-right-radius:25px;  
+    border-bottom-right-radius:25px;  
+    border-bottom-left-radius:25px;
+    margin-top: 20px;
+    margin-left: 40px;
 
-.text-child2 h2{
-   
-    }
-    
+}
+
+  
   /*social media*/
   
   .socialMedia i{ 
@@ -163,17 +204,19 @@ flex-direction: column;
       and use display block. --- i means icone*/
       font-size: 30px;
    margin-bottom: 40px;
-   color: blue;
+   color: #FF6787;
      
   }
 /*move box ofall social media to bottom-- look below use only class*/
 .socialMedia {
 display:flex ;
-background-color: bisque;
+background-color: #E9DBD8;
 flex-direction: column;
 align-items: center;
 justify-content: end;
 
 }
+
+
 
 
