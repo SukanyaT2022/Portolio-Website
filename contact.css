@@ -1,0 +1,30 @@
+.parent{
+  
+}
+
+.leftSide{
+
+
+}
+form{
+    /*margin-left:200px;*/
+    display: block;
+    margin: 50px auto;
+    width: 70%;
+    padding: 20px;
+    background-color: aquamarine;
+}
+.lastName{
+    margin-left: 110px;
+
+}
+
+/*we increase size of email input box*/
+input[type="email"]{
+    width: 80%;
+}
+
+/*move send message box to center*/
+input[type="submit"]{
+    margin-left: 95px;
+}

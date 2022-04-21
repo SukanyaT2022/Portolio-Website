@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+    <!--icon social media and icon from font awesome link-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--navBar-->
+    <header>
+        <nav class="navbar navbar-expand-lg backgroundChange">
+            <!--important to remove- navbar-light so we can change text color on css-->
+            <!--style="background-color: pink--if put inline css-->
+
+            <a class="navbar-brand" href="#"><img src="RealLogo2.png"></a>
+            <!--add only 1 br so sukanya move to another line-->
+            <!--span tag we use for logo and small change-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+
+                <!--
+                <ul class="navbar-nav">
+                    -->
+                <!--put m-auto after nav bar inside""--move the whole bloc of home-resume to the center-->
+
+                <ul class="navbar-nav ml-auto">
+                    <!--move the whole bar home contact to right use mr to center use only m 
+                    and ml for move to right side -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <!-- how to change color in line css--add style
+                             <a class="nav-link" style="color: red;"  href="#">Home <span class="sr-only">(current)</span></a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><button class="button-downloadCV">Download CV <i
+                                    class="fa-solid fa-chevron-down"></i></button></a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--contact box-->
+    <div class="parent">
+        <div class="row">
+            <div class="col-lg-6 leftSide">
+                <!--to build grid row and col they ar come together-->
+                <form>
+
+                    <label for="Name">First Name</label>
+                    <label for="Name" class="lastName">Last Name</label><br>
+                     <!--to move lastname lable we add class lastName to target-->
+                    <!--br tag help firstname on top of the box-->
+                    <input type="text" required>
+
+                    <input type="text" required><br>
+                    <!--email-->
+                    <label for="email">Email</label><br>
+                    <input type="email" required>
+
+                    <!--message-->
+                    <br>
+                    <label for="text">Message</label><br>
+                    <textarea name="Message" id="" cols="35" rows="8"></textarea><br>
+                    <!--we can make box bigger or smaller by changing number cols (width)and row(height)-->
+                    <!--submit-->
+                    <input type="submit" value="Send Message">
+                </form>
+
+<hr>
+                <!--contact information-->
+<div class="contactInfo">
+<h3>Contact Information</h3> 
+    <i class="fa-solid fa-phone"></i>
+    <p>+13474419148</p>
+    <i class="fa-solid fa-envelope"></i>
+    <p>lolospence99@gmail.com</p>
+
+   
+
+
+</div>
+
+            </div>
+
+            <!--leftside-->
+            <div class="col-lg-6 rightSide">
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--java script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
