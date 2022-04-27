@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.BigBox{
+    background-color: lightgray;
+}
+
+.head{
+    background:linear-gradient(10deg,#fff6b7,#f6416c);
+    /*deg is degree to chnage direction of mixed colors
+    linear-gradient make mixed colors*/
+}
+
+.bigBox-experience{
+    display: flex;
+    
+}
+
+.year{
+width: 15%;
+}
+
+.expe-details{
+width: 70%;
+}
+
+.expe-details li{
+    margin: 10px 0px;
+
+}
+
+/*education-section*/
+
+.education ul li{
+   list-style: none; /*remove dot from li*/
+}
+
+.graduate{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}

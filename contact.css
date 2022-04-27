@@ -1,4 +1,20 @@
+
+
+.contact{
+    width: 500px;
+  margin-left:-150px;
+  margin-top: 20px;
+  
+
+}
+.contact img{
+width: 100%;
+
+}
+
+
 .parent{
+    
   
 }
 
@@ -6,25 +22,53 @@
 
 
 }
+.rightSide{
+   
+}
+
 form{
     /*margin-left:200px;*/
     display: block;
-    margin: 50px auto;
+    margin: 200px auto 50px auto;
     width: 70%;
     padding: 20px;
-    background-color: aquamarine;
+background-image: linear-gradient(white, transparent),url("https://images.unsplash.com/photo-1568738351265-c7065f5d4293?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTk1fHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+background-size: cover;
+background-position: top center;
+background-blend-mode: overlay;
 }
 .lastName{
     margin-left: 110px;
 
 }
 
+input[type="text"]{
+    width: 49%;
+
+}
+textarea{
+    width: 100%;
+}
+/*textarea is message box*/
+
 /*we increase size of email input box*/
 input[type="email"]{
-    width: 80%;
+    width: 100%;
 }
 
 /*move send message box to center*/
 input[type="submit"]{
     margin-left: 95px;
 }
+
+
+/*contact information section*/
+.contactInfo{
+    width: 50%;
+    margin: 100px auto;
+   
+   
+  
+    
+}
+
