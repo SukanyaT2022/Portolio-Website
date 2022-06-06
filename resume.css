@@ -1,17 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+   padding-bottom: 80px;
+   background-color: #E9DBD8;
+   
 }
 
 .BigBox{
-    background-color: lightgray;
+    background-color: white;
+   
+
 }
 
 .head{
-    background:linear-gradient(10deg,#fff6b7,#f6416c);
+    background-color:#2C3E50;
+    color: white;
+    padding:5px 0px;
+
+
+    /*background:linear-gradient(10deg,#fff6b7,#f6416c);*/
     /*deg is degree to chnage direction of mixed colors
     linear-gradient make mixed colors*/
 }
+h6{
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+h5,h4,h3,h2{
+    font-weight: bold; 
+}
+
+
 
 .bigBox-experience{
     display: flex;
@@ -40,4 +66,42 @@ width: 70%;
 .graduate{
     margin-top: -10px;
     margin-bottom: 10px;
+}
+
+/*personal info side*/
+
+.personalInfo{
+    
+}
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.dot{
+    float: right;
+  
+    
+}
+.greyDot{
+   color: lightgrey;
+   border: 1px solid black;
+   border-radius: 50%;
+  font-size: 13px;
+
+  
+}
+
+.whiteBackground{
+    background-color: white;
+}
+
+
+.sum-experience-OnTop{
+
+    line-height: 30px;/*add space bet line*/
+    word-spacing: 1px;
+
 }

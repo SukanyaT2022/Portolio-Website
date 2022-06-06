@@ -4,7 +4,14 @@
 
 /*above make it responsive*/
 
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+overflow-x: hidden;
+}
 
 header{
     background-color: #E9DBD8;
@@ -68,6 +75,12 @@ class can chnage color of nav bar*/
     margin-left: 200px;
 }
 
+.fa-bars{
+    font-size: 25px;
+    color: black;
+
+}
+
 .button-downloadCV{
    /* height: 60px;
     width: 200px;*/
@@ -107,8 +120,8 @@ display: flex;/* make Tiparpron to center*/
 align-items: center;
 justify-content: center;
 
-
 }
+
 /*move tiparpron to center use h2*/
 .circle h2{
 margin-left:30px;
@@ -122,8 +135,7 @@ color: #FF6787;
     margin-left: 40px;
     font-size: 40px;
 }
-
-
+/*box of background*/
 .pic-child1{
 position: relative;
 display: flex;
@@ -131,10 +143,8 @@ justify-content: center;
 align-items: center;
 height: 80vh;
 width: 100%;
- 
-
-
 }
+/*image of background*/
 .pic-child1::before{
     content: "";
     position: absolute;
@@ -173,7 +183,6 @@ width: 100%;
 /* right side text section*/
 
 .text-child2 {
- 
 display: flex;
 background-color: #FDEDEC;
 height: 80vh;
@@ -192,9 +201,13 @@ flex-direction: column;
     border-top-right-radius:25px;  
     border-bottom-right-radius:25px;  
     border-bottom-left-radius:25px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 40px;
-
+    margin-bottom: 20px;
+    
+}
+.contact-me:hover{
+    background-color: #FF6787;
 }
 
   
@@ -221,11 +234,113 @@ justify-content: end;
 footer{
     width: 100%;
     border-top: 2px solid lightgray;
-   text-align: center;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 0px;
+  text-align: center;
    background-color: #E9DBD8;
 }
 
+/*media queries for ipad*/
+@media screen and (max-width: 768px) {
+    .circle{
+        margin: 30px auto;
+        background-color: white;
+        }
+
+        .text-child2 {
+            height: auto;
+            padding: 30px;
+        
+            }
+        .text-child2 h2,h4,p{
+                margin: 0px 50px;
+                }
+        .socialMedia {
+                    display:flex ;
+                    background-color: #E9DBD8;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    }
+         .socialMedia i{
+                        margin: 20px;
+                        
+                    }
+
+          .pic-child1{
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 50vh;
+                        width: 100%;
+                        }
+                        
+         .pic-child1::before{
+                            content: "";
+                            position: absolute;
+                            /* we use before -content-position absolute
+                            to blur flower pic--also we need position relative on main class*/
+                            background-image: url("https://images.unsplash.com/photo-1521062849558-8e32f69ba41d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNwcmluZyUyMGZsb3dlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+                            background-size: cover;
+                             /*cover for flower img*/
+                             height: 50vh;
+                             width: 100%;
+                             filter: blur(5px); 
+                        
+                        }
+
+  }
+
+
+@media screen and (max-width: 400px) {
+    .facePics {
+        width: 200px;
+        height: 200px;
+        border: 0px solid pink;
+        position: absolute;
+        border-radius: 50%;
+     
+    }
+    .facePics img{
+        width: 200px;
+        height: 200px;   
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    
+    }
+
+    .circle h2 span{
+      font-size: 24px;
+        
+        }
+    
+    .circle h2{
+    font-size: 40px;
+    }
+
+    .text-child2 h2 {
+    font-size: 24px;
+        }
+/*box of background*/
+.pic-child1{
+  
+    height: 40vh;
+  
+    }
+    /*image of background*/
+    .pic-child1::before{
+        
+         height: 40vh;
+       
+    }
 
 
 
+
+}

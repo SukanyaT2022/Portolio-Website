@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*mainbox-control all*/
+.backgroundIMG{
+    background-color:;
+    height: 85vh;
+    margin-top: 60px;
+ 
+  
+}
+
+.frame{
+    height: 400px;
+  width: 350px;
+  border: 10px solid white;
+}/*boxcenter is pic section*/
+
+.boxCenter{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Facetune-edit2.jpg"),linear-gradient(rgba(255, 182, 193, 0.52),rgba(255, 182, 193, 0.712));
+    background-blend-mode: overlay;
+    background-position: center center;
+    background-size:70%,70%;
+    background-repeat: no-repeat;
+    margin-top: 30px; 
+}
+.frame h1{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.textSection{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+padding: 20px 100px 0px 0px;/*top right bottom left*/
+text-align: justify;
+
+}
+/*media queries*/
+
+@media screen and (max-width: 768px) {
+   
+    .boxCenter{
+        padding: 30px 0px;
+    }
+    .textSection{
+        padding: 30px;
+        
+        }
+    footer{
+        position: absolute;
+        bottom: 0;
+    
+    }
+    .frame{
+        height: 400px;
+        width: 450px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+.frame{
+    height: 300px;
+    width: 250px;
+}
+.textSection{
+    padding: 10px;
+    text-align: left;
+    }
+.textSection span{
+  display: block;
+        }
+
+
+footer{
+position: absolute;
+bottom:0px;
+}
+.boxCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Facetune-edit2.jpg"),linear-gradient(rgba(255, 182, 193, 0.52),rgba(255, 182, 193, 0.712));
+    background-blend-mode: overlay;
+    background-position: center center;
+    background-size:70%,cover; /*70% for image and cover is filer*/
+    background-repeat: no-repeat;
+    margin-top: 30px; 
+}
+
+
+
+}
+
+

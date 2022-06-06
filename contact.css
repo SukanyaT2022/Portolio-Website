@@ -1,74 +1,109 @@
-
-
-.contact{
-    width: 500px;
-  margin-left:-150px;
-  margin-top: 20px;
-  
-
+.contact {
+  width: 500px;
+  margin-left: -270px;
+  margin-top: -150px;
 }
-.contact img{
-width: 100%;
-
+.contact img {
+  width: 100%;
 }
 
-
-.parent{
-    
-  
+form {
+  /*margin-left:200px;*/
+  display: block;
+  margin: 200px auto 50px auto;
+  width: 70%;
+  padding: 20px;
+  height: 450px;
+  background-image: url('https://images.unsplash.com/photo-1523766775147-152d0d6e2adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3ByaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+  background-size: cover;
+  background-position: top center;
+  background-blend-mode: overlay;
+}
+.lastName {
+  margin-left: 110px;
 }
 
-.leftSide{
-
-
+input[type='text'] {
+  width: 49%;
 }
-.rightSide{
-   
-}
-
-form{
-    /*margin-left:200px;*/
-    display: block;
-    margin: 200px auto 50px auto;
-    width: 70%;
-    padding: 20px;
-background-image: linear-gradient(white, transparent),url("https://images.unsplash.com/photo-1568738351265-c7065f5d4293?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTk1fHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
-background-size: cover;
-background-position: top center;
-background-blend-mode: overlay;
-}
-.lastName{
-    margin-left: 110px;
-
-}
-
-input[type="text"]{
-    width: 49%;
-
-}
-textarea{
-    width: 100%;
+/*message bopx*/
+textarea {
+  width: 100%;
 }
 /*textarea is message box*/
 
 /*we increase size of email input box*/
-input[type="email"]{
-    width: 100%;
+input[type='email'] {
+  width: 100%;
 }
 
 /*move send message box to center*/
-input[type="submit"]{
-    margin-left: 95px;
+input[type='submit'] {
+  display: block;
+  margin: auto;
 }
 
+input[type='submit']:hover {
+  background-color: #ff6787;
+}
 
 /*contact information section*/
-.contactInfo{
-    width: 50%;
-    margin: 100px auto;
-   
-   
-  
-    
+.contactInfo {
+  width: 100%;
+  text-align: center;
+  margin: 100px auto;
 }
 
+.contact2 {
+  display: none;
+}
+
+/*media queries for ipad*/
+@media screen and (max-width: 768px) {
+  .contact2 {
+    width: 500px;
+    display: block;
+    margin: 150px auto -130px auto;
+  }
+
+  .contact2 img {
+    width: 100%;
+  }
+  /*hide display none*/
+  .contact {
+    display: none;
+  }
+  /*rightside control the whole box of contact info*/
+  .rightSide {
+    margin-top: -130px;
+  }
+
+  .parent {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  form {
+    /*margin-left:200px;*/
+
+    width: 90%;
+  }
+
+  .contact2 {
+    width: 300px;
+    display: block;
+    margin: 150px auto -130px auto;
+  }
+
+  .contactInfo {
+    width: 100%;
+    text-align: center;
+    margin: 100px auto;
+    padding-top: 30px;
+  }
+  /*rightside control the whole box of contact info*/
+  .rightSide {
+    margin-top: -180px;
+  }
+}

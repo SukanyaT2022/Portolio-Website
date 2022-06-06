@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@700&display=swap"
         rel="stylesheet">
 
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
 
@@ -54,10 +54,13 @@
                              <a class="nav-link" style="color: red;"  href="#">Home <span class="sr-only">(current)</span></a> -->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="aboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contacts</a>
@@ -66,8 +69,7 @@
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><button class="button-downloadCV">Download CV <i
-                                    class="fa-solid fa-chevron-down"></i></button></a>
+                        <a class="nav-link" href="Resume.pdf" download=""><button class="button-downloadCV">Download CV <i class="fa-solid fa-chevron-down"></i></button></a>
                     </li>
                 </ul>
             </div>
@@ -80,6 +82,11 @@
         <div class="row">
             <div class="col-lg-5 leftSide">
                 <!--to build grid row and col they ar come together-->
+
+                <div class="contact2">
+                    <img src="contact2-removebg-preview (1).png">
+                </div>
+
                 <form>
 
                     <label for="Name">First Name</label>
@@ -108,26 +115,24 @@
             </div>
 
             <!--leftside-->
+            <!--rigtSide is for contact info box/ control the whole box-->
             <div class="col-lg-6 rightSide">
+                <form>
+                    <div class="contact">
+                        <img src="contact2-removebg-preview (1).png">
+                    </div>
 
-                <div class="contact">
-                    <img src="contact2-removebg-preview (1).png">
-                </div>
+                    <!--contact information-->
+                    <div class="contactInfo">
+                        <h3>Contact Information</h3>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+13474419148</p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>SukanyaT2022A@gmail.com</p>
 
-                <!--contact information-->
-                <div class="contactInfo">
-                    <h3>Contact Information</h3>
-                    <i class="fa-solid fa-phone"></i>
-                    <p>+13474419148</p>
-                    <i class="fa-solid fa-envelope"></i>
-                    <p>lolospence99@gmail.com</p>
+                    </div>
 
-
-
-
-                </div>
-
-
+                </form>
             </div>
 
             <!--social media section-->
@@ -136,10 +141,7 @@
                 <a href=" "> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                 <a href=" "><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 
-
             </div>
-
-
 
         </div>
 
@@ -152,7 +154,6 @@
         <!--&copy give circle copy right-->
 
     </footer>
-
 
     <!--java script-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
