@@ -1,107 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
-body{
-   padding-bottom: 80px;
-   background-color: #E9DBD8;
-   
+body {
+  padding-bottom: 80px;
+  background-color: #e9dbd8;
 }
 
-.BigBox{
-    background-color: white;
-   
-
+.BigBox {
+  background-color: white;
 }
 
-.head{
-    background-color:#2C3E50;
-    color: white;
-    padding:5px 0px;
+.head {
+  background-color: #2c3e50;
+  color: white;
+  padding: 5px 0px;
 
-
-    /*background:linear-gradient(10deg,#fff6b7,#f6416c);*/
-    /*deg is degree to chnage direction of mixed colors
+  /*background:linear-gradient(10deg,#fff6b7,#f6416c);*/
+  /*deg is degree to chnage direction of mixed colors
     linear-gradient make mixed colors*/
 }
-h6{
-    
-    font-size: 18px;
-    font-weight: bold;
+h6 {
+  font-size: 18px;
+  font-weight: bold;
 }
-h5,h4,h3,h2{
-    font-weight: bold; 
-}
-
-
-
-.bigBox-experience{
-    display: flex;
-    
+h5,
+h4,
+h3,
+h2 {
+  font-weight: bold;
 }
 
-.year{
-width: 15%;
+.bigBox-experience {
+  display: flex;
 }
 
-.expe-details{
-width: 70%;
+.year {
+  width: 15%;
 }
 
-.expe-details li{
-    margin: 10px 0px;
+.expe-details {
+  width: 70%;
+}
 
+.expe-details li {
+  margin: 10px 0px;
 }
 
 /*education-section*/
 
-.education ul li{
-   list-style: none; /*remove dot from li*/
+.education ul li {
+  list-style: none; /*remove dot from li*/
 }
 
-.graduate{
-    margin-top: -10px;
-    margin-bottom: 10px;
+.graduate {
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 /*personal info side*/
 
-.personalInfo{
-    
+.personalInfo {
 }
-.skill{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 15px 0px;
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0px;
 }
 
-.dot{
-    float: right;
-  
-    
+.dot {
+  float: right;
 }
-.greyDot{
-   color: lightgrey;
-   border: 1px solid black;
-   border-radius: 50%;
+.greyDot {
+  color: lightgrey;
+  border: 1px solid black;
+  border-radius: 50%;
   font-size: 13px;
-
-  
 }
 
-.whiteBackground{
-    background-color: white;
+.whiteBackground {
+  background-color: white;
 }
 
-
-.sum-experience-OnTop{
-
-    line-height: 30px;/*add space bet line*/
-    word-spacing: 1px;
+.sum-experience-OnTop {
+  line-height: 30px; /*add space bet line*/
+  word-spacing: 1px;
+}
+/*ipad mini-move dot to equal level*/
+@media screen and (max-width: 768px) {
+  .moveDot {
+    margin-right: -30px;
+  }
+  .moveDot2 {
+    margin-right: -20px;
+  }
+}
+/*iphone 12 pro*/
+@media screen and (max-width: 400px) {
+  .moveForPhone{
+   margin-left: -50px;
+  }
 
 }
