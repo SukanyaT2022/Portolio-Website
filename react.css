@@ -127,9 +127,11 @@ h4 {
     width: 90%;
     object-fit: contain;
   }
-  /*fix footer*/
-  footer{
-    margin-top: -50px;
-    padding-top: 25px;
-  }
+/*fix footer*/
+footer{
+  margin-top: -50px;
+  padding-top: 25px;
+}
+
+
 }
