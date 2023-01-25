@@ -133,5 +133,10 @@ footer{
   padding-top: 25px;
 }
 
-
 }
+@media screen and (max-width: 500px) {
+  .reduceMargin{
+   margin-top: -40px;
+  }
+ 
+ }

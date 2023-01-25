@@ -105,4 +105,24 @@ h2 {
    margin-left: -50px;
   }
 
+  .year {
+    width: 100%;
+  }
+  .bigBox-experience {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+  
+  }
+  .expe-details {
+    width: 100%;
+  }
+
+  .moveExperience{
+    text-align: center;
+  }
+  .whiteBackground {
+    margin-top:10px !important;
+  }
+
 }

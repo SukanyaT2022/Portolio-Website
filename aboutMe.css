@@ -94,7 +94,7 @@ footer {
     width: 300px;
   }
 }
-
+/*phone*/
 @media screen and (max-width: 400px) {
   .frame {
     height: 300px;
@@ -123,5 +123,9 @@ footer {
     background-size: 70%, cover; /*70% for image and cover is filer*/
     background-repeat: no-repeat;
     margin-top: 30px;
+  }
+
+  .moveBoxUp{
+    margin-top: -90px;
   }
 }
