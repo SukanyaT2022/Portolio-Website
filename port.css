@@ -87,7 +87,7 @@ class can chnage color of nav bar*/
      if we not put trasparent it show white background*/
 
   /*padding make box bigger if do not want box get bigger when use padding use box sizing*/
-  margin: -10px -80px 0px 100px; /*value top right bottom and left*/
+  margin: -10px -50px 0px 100px; /*value top right bottom and left*/
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -291,7 +291,7 @@ footer {
   /*move cv download box*/
   .button-downloadCV {
     display: block;
- margin: auto;
+    margin: auto;
   }
 }
 
