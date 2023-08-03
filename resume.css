@@ -55,6 +55,9 @@ h2 {
 .education ul li {
   list-style: none; /*remove dot from li*/
 }
+li{
+  margin: 100px 0px;
+}
 
 .graduate {
   margin-top: -10px;
@@ -89,6 +92,11 @@ h2 {
 .sum-experience-OnTop {
   line-height: 30px; /*add space bet line*/
   word-spacing: 1px;
+}
+
+li{
+  margin: 20px 0px!important;
+ 
 }
 /*ipad mini-move dot to equal level*/
 @media screen and (max-width: 768px) {
