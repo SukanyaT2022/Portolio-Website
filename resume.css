@@ -55,9 +55,7 @@ h2 {
 .education ul li {
   list-style: none; /*remove dot from li*/
 }
-li{
-  margin: 100px 0px;
-}
+
 
 .graduate {
   margin-top: -10px;
@@ -73,10 +71,11 @@ li{
   align-items: center;
   justify-content: space-between;
   margin: 15px 0px;
+
 }
 
 .dot {
-  float: right;
+align-self: flex-end;
 }
 .greyDot {
   color: lightgrey;
@@ -95,9 +94,13 @@ li{
 }
 
 li{
-  margin: 20px 0px!important;
+  margin: 0px 0px;
  
 }
+.PersonalInfoIpadPhone{
+  display: none;
+}
+
 /*ipad mini-move dot to equal level*/
 @media screen and (max-width: 768px) {
   .moveDot {
@@ -106,6 +109,33 @@ li{
   .moveDot2 {
     margin-right: -20px;
   }
+  .dot i{
+    margin-top: 30px;
+     }
+     .targetReactPhoneDot{
+      margin-right: 23px;
+    }
+    .skill p{
+      margin-left: 20px;
+    }
+    .PersonalInfoIpadPhone{
+      display: block;
+      padding: 20px;
+    }
+    .controlOnlyPersonalInfo{
+display: none;
+
+    }
+  
+    .targetWordSkills{
+      text-align: center;
+    }
+    .targetCertifiicates{
+      margin-top: 30px;
+    }
+    .targetContactMePhoneIpad{
+      display: none;
+    }
 }
 /*iphone 12 pro*/
 @media screen and (max-width: 400px) {
@@ -132,5 +162,20 @@ li{
   .whiteBackground {
     margin-top:10px !important;
   }
-
+  .sum-experience-OnTop {
+ padding: 0px 0px!important;
+    width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  }
+  .targetReactPhoneDot{
+    margin-right: 23px;
+  }
+  .dot i{
+   margin-top: 20px;
+    }
+.skill p{
+ 
+  margin-left: 20px;
+}
 }
