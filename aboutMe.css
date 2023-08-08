@@ -19,9 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('photo1.JPG'),
-    linear-gradient(rgba(255, 182, 193, 0.52), rgba(255, 182, 193, 0.712));
-  background-blend-mode: overlay;
+  background-image: url('photo1.JPG');
   background-position: center center;
   background-size: 70%, 70%;
   background-repeat: no-repeat;
@@ -60,11 +58,9 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 0px;
-
-
 }
 .socialMedia{
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .socialMedia a{
 margin: 15px 20px -20px 20px ;
@@ -73,6 +69,7 @@ margin: 15px 20px -20px 20px ;
 footer{
   background-color: #e9dbd8;
 }
+
 
 
 /*media queries*/
@@ -91,6 +88,20 @@ footer{
   .nextline {
     display: inline;
   }
+  footer p{
+    margin-top: 0px;
+  }
+  .socialMedia{
+    margin-top: 0px;
+  }
+  
+  .smallBox {
+    margin-bottom: 0px;
+  }
+  .socialMedia a{
+    margin: 15px 5px -20px 5px ;
+    
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -131,16 +142,14 @@ footer{
   }
 
   footer {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+   
   }
   .boxCenter {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('photo1.JPG'),
-      linear-gradient(rgba(255, 182, 193, 0.52), rgba(255, 182, 193, 0.712));
-    background-blend-mode: overlay;
+    background-image: url('photo1.JPG');
     background-position: center center;
     background-size: 70%, cover; /*70% for image and cover is filer*/
     background-repeat: no-repeat;

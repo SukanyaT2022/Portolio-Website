@@ -93,6 +93,26 @@ h4 {
   border-radius: 10%;
   object-fit: cover;
 }
+/* social media footer */
+.footerSocialMedia{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+
+
+}
+.socialMedia{
+  margin-top: 40px;
+}
+.socialMedia a{
+margin: 15px 20px -20px 20px ;
+
+}
+footer{
+  background-color: #e9dbd8;
+}
+
 
 /*media queries Ipad air*/
 
@@ -136,11 +156,26 @@ footer{
   margin-top: -50px;
   padding-top: 25px;
 }
+footer p{
+  margin-top: 50px;
+}
+.socialMedia{
+  margin-top: 0px;
+}
+
+.smallBox {
+  margin-bottom: 0px;
+}
+.socialMedia a{
+  margin: 15px 5px -20px 5px ;
+  
+  }
 
 }
 @media screen and (max-width: 500px) {
   .reduceMargin{
    margin-top: -40px;
   }
+ 
  
  }
